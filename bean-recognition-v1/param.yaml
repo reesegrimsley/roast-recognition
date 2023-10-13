@@ -1,0 +1,63 @@
+input_dataset:         
+  name: reese-beans
+metric:                              
+  label_offset_pred:                 
+    0: 0   
+dataset_category: coco
+input_dataset:
+  dataset_info: /data/ssd/files/a0393608/work/code/ti/edgeai-algo/edgeai-benchmark/work_dirs/modelartifacts/
+  name: coco
+  num_classes: 90
+  num_frames: 5000
+  path: ./dependencies/datasets/coco
+  shuffle: false
+  split: val2017
+postprocess:
+  data_layout: NCHW
+  detection_thr: 0.5
+  detection_threshold: 0.5
+  formatter:
+    dst_indices:
+    - 4
+    - 5
+    ingore_index: null
+    name: DetectionBoxSL2BoxLS
+    src_indices:
+    - 5
+    - 4
+  normalized_detections: false
+preprocess:
+  crop:
+  - 320
+  - 320
+  data_layout: NCHW
+  mean:
+  - 0
+  - 0
+  - 0
+  resize:
+  - 320
+  - 320
+  reverse_channels: false
+  scale:
+  - 0.003921569790691137
+  - 0.003921569790691137
+  - 0.003921569790691137
+session:
+  artifacts_folder: artifacts
+  input_data_layout: NCHW
+  input_mean:
+  - 0
+  - 0
+  - 0
+  input_optimization: false
+  input_scale:
+  - 0.003921569790691137
+  - 0.003921569790691137
+  - 0.003921569790691137
+  model_folder: .
+  model_path: model.onnx
+  session_name: onnxrt
+  tidl_offload: true
+target_device: pc
+task_type: detection

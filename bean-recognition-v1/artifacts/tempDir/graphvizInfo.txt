@@ -1,0 +1,268 @@
+267
+0 dummy_mul Mul outputAdjNodes 1 1 inputAdjNodes 0 inp1 diagInfo 
+1 Conv_0 Conv outputAdjNodes 1 2 inputAdjNodes 1 0 diagInfo 
+2 Relu_1 Relu outputAdjNodes 1 3 inputAdjNodes 1 1 diagInfo 
+3 Conv_2 Conv outputAdjNodes 1 4 inputAdjNodes 1 2 diagInfo 
+4 Relu_3 Relu outputAdjNodes 1 5 inputAdjNodes 1 3 diagInfo 
+5 Conv_4 Conv outputAdjNodes 1 6 inputAdjNodes 1 4 diagInfo 
+6 Relu_5 Relu outputAdjNodes 2 7 8 inputAdjNodes 1 5 diagInfo 
+7 Conv_6 Conv outputAdjNodes 1 9 inputAdjNodes 1 6 diagInfo 
+8 Conv_8 Conv outputAdjNodes 1 10 inputAdjNodes 1 6 diagInfo 
+9 Relu_7 Relu outputAdjNodes 2 11 15 inputAdjNodes 1 7 diagInfo 
+10 Relu_9 Relu outputAdjNodes 1 16 inputAdjNodes 1 8 diagInfo 
+11 Conv_10 Conv outputAdjNodes 1 12 inputAdjNodes 1 9 diagInfo 
+12 Relu_11 Relu outputAdjNodes 1 13 inputAdjNodes 1 11 diagInfo 
+13 Conv_12 Conv outputAdjNodes 1 14 inputAdjNodes 1 12 diagInfo 
+14 Relu_13 Relu outputAdjNodes 1 15 inputAdjNodes 1 13 diagInfo 
+15 Add_14 Add outputAdjNodes 1 16 inputAdjNodes 2 14 9 diagInfo 
+16 Concat_15 Concat outputAdjNodes 1 17 inputAdjNodes 2 15 10 diagInfo 
+17 Conv_16 Conv outputAdjNodes 1 18 inputAdjNodes 1 16 diagInfo 
+18 Relu_17 Relu outputAdjNodes 1 19 inputAdjNodes 1 17 diagInfo 
+19 Conv_18 Conv outputAdjNodes 1 20 inputAdjNodes 1 18 diagInfo 
+20 Relu_19 Relu outputAdjNodes 2 21 22 inputAdjNodes 1 19 diagInfo 
+21 Conv_20 Conv outputAdjNodes 1 23 inputAdjNodes 1 20 diagInfo 
+22 Conv_22 Conv outputAdjNodes 1 24 inputAdjNodes 1 20 diagInfo 
+23 Relu_21 Relu outputAdjNodes 2 25 29 inputAdjNodes 1 21 diagInfo 
+24 Relu_23 Relu outputAdjNodes 1 40 inputAdjNodes 1 22 diagInfo 
+25 Conv_24 Conv outputAdjNodes 1 26 inputAdjNodes 1 23 diagInfo 
+26 Relu_25 Relu outputAdjNodes 1 27 inputAdjNodes 1 25 diagInfo 
+27 Conv_26 Conv outputAdjNodes 1 28 inputAdjNodes 1 26 diagInfo 
+28 Relu_27 Relu outputAdjNodes 1 29 inputAdjNodes 1 27 diagInfo 
+29 Add_28 Add outputAdjNodes 2 30 34 inputAdjNodes 2 28 23 diagInfo 
+30 Conv_29 Conv outputAdjNodes 1 31 inputAdjNodes 1 29 diagInfo 
+31 Relu_30 Relu outputAdjNodes 1 32 inputAdjNodes 1 30 diagInfo 
+32 Conv_31 Conv outputAdjNodes 1 33 inputAdjNodes 1 31 diagInfo 
+33 Relu_32 Relu outputAdjNodes 1 34 inputAdjNodes 1 32 diagInfo 
+34 Add_33 Add outputAdjNodes 2 35 39 inputAdjNodes 2 33 29 diagInfo 
+35 Conv_34 Conv outputAdjNodes 1 36 inputAdjNodes 1 34 diagInfo 
+36 Relu_35 Relu outputAdjNodes 1 37 inputAdjNodes 1 35 diagInfo 
+37 Conv_36 Conv outputAdjNodes 1 38 inputAdjNodes 1 36 diagInfo 
+38 Relu_37 Relu outputAdjNodes 1 39 inputAdjNodes 1 37 diagInfo 
+39 Add_38 Add outputAdjNodes 1 40 inputAdjNodes 2 38 34 diagInfo 
+40 Concat_39 Concat outputAdjNodes 1 41 inputAdjNodes 2 39 24 diagInfo 
+41 Conv_40 Conv outputAdjNodes 1 42 inputAdjNodes 1 40 diagInfo 
+42 Relu_41 Relu outputAdjNodes 2 43 109 inputAdjNodes 1 41 diagInfo 
+43 Conv_42 Conv outputAdjNodes 1 44 inputAdjNodes 1 42 diagInfo 
+44 Relu_43 Relu outputAdjNodes 2 45 46 inputAdjNodes 1 43 diagInfo 
+45 Conv_44 Conv outputAdjNodes 1 47 inputAdjNodes 1 44 diagInfo 
+46 Conv_46 Conv outputAdjNodes 1 48 inputAdjNodes 1 44 diagInfo 
+47 Relu_45 Relu outputAdjNodes 2 49 53 inputAdjNodes 1 45 diagInfo 
+48 Relu_47 Relu outputAdjNodes 1 64 inputAdjNodes 1 46 diagInfo 
+49 Conv_48 Conv outputAdjNodes 1 50 inputAdjNodes 1 47 diagInfo 
+50 Relu_49 Relu outputAdjNodes 1 51 inputAdjNodes 1 49 diagInfo 
+51 Conv_50 Conv outputAdjNodes 1 52 inputAdjNodes 1 50 diagInfo 
+52 Relu_51 Relu outputAdjNodes 1 53 inputAdjNodes 1 51 diagInfo 
+53 Add_52 Add outputAdjNodes 2 54 58 inputAdjNodes 2 52 47 diagInfo 
+54 Conv_53 Conv outputAdjNodes 1 55 inputAdjNodes 1 53 diagInfo 
+55 Relu_54 Relu outputAdjNodes 1 56 inputAdjNodes 1 54 diagInfo 
+56 Conv_55 Conv outputAdjNodes 1 57 inputAdjNodes 1 55 diagInfo 
+57 Relu_56 Relu outputAdjNodes 1 58 inputAdjNodes 1 56 diagInfo 
+58 Add_57 Add outputAdjNodes 2 59 63 inputAdjNodes 2 57 53 diagInfo 
+59 Conv_58 Conv outputAdjNodes 1 60 inputAdjNodes 1 58 diagInfo 
+60 Relu_59 Relu outputAdjNodes 1 61 inputAdjNodes 1 59 diagInfo 
+61 Conv_60 Conv outputAdjNodes 1 62 inputAdjNodes 1 60 diagInfo 
+62 Relu_61 Relu outputAdjNodes 1 63 inputAdjNodes 1 61 diagInfo 
+63 Add_62 Add outputAdjNodes 1 64 inputAdjNodes 2 62 58 diagInfo 
+64 Concat_63 Concat outputAdjNodes 1 65 inputAdjNodes 2 63 48 diagInfo 
+65 Conv_64 Conv outputAdjNodes 1 66 inputAdjNodes 1 64 diagInfo 
+66 Relu_65 Relu outputAdjNodes 2 67 94 inputAdjNodes 1 65 diagInfo 
+67 Conv_66 Conv outputAdjNodes 1 68 inputAdjNodes 1 66 diagInfo 
+68 Relu_67 Relu outputAdjNodes 1 69 inputAdjNodes 1 67 diagInfo 
+69 Conv_68 Conv outputAdjNodes 1 70 inputAdjNodes 1 68 diagInfo 
+70 Relu_69 Relu outputAdjNodes 2 71 77 inputAdjNodes 1 69 diagInfo 
+71 MaxPool_70 MaxPool outputAdjNodes 1 72 inputAdjNodes 1 70 diagInfo 
+72 MaxPool_71 MaxPool outputAdjNodes 2 73 77 inputAdjNodes 1 71 diagInfo 
+73 MaxPool_74 MaxPool outputAdjNodes 1 74 inputAdjNodes 1 72 diagInfo 
+74 MaxPool_75 MaxPool outputAdjNodes 2 75 77 inputAdjNodes 1 73 diagInfo 
+75 MaxPool_80 MaxPool outputAdjNodes 1 76 inputAdjNodes 1 74 diagInfo 
+76 MaxPool_81 MaxPool outputAdjNodes 1 77 inputAdjNodes 1 75 diagInfo 
+77 Concat_82 Concat outputAdjNodes 1 78 inputAdjNodes 4 70 72 74 76 diagInfo 
+78 Conv_83 Conv outputAdjNodes 1 79 inputAdjNodes 1 77 diagInfo 
+79 Relu_84 Relu outputAdjNodes 2 80 81 inputAdjNodes 1 78 diagInfo 
+80 Conv_85 Conv outputAdjNodes 1 82 inputAdjNodes 1 79 diagInfo 
+81 Conv_87 Conv outputAdjNodes 1 83 inputAdjNodes 1 79 diagInfo 
+82 Relu_86 Relu outputAdjNodes 1 84 inputAdjNodes 1 80 diagInfo 
+83 Relu_88 Relu outputAdjNodes 1 88 inputAdjNodes 1 81 diagInfo 
+84 Conv_89 Conv outputAdjNodes 1 85 inputAdjNodes 1 82 diagInfo 
+85 Relu_90 Relu outputAdjNodes 1 86 inputAdjNodes 1 84 diagInfo 
+86 Conv_91 Conv outputAdjNodes 1 87 inputAdjNodes 1 85 diagInfo 
+87 Relu_92 Relu outputAdjNodes 1 88 inputAdjNodes 1 86 diagInfo 
+88 Concat_93 Concat outputAdjNodes 1 89 inputAdjNodes 2 87 83 diagInfo 
+89 Conv_94 Conv outputAdjNodes 1 90 inputAdjNodes 1 88 diagInfo 
+90 Relu_95 Relu outputAdjNodes 1 91 inputAdjNodes 1 89 diagInfo 
+91 Conv_96 Conv outputAdjNodes 1 92 inputAdjNodes 1 90 diagInfo 
+92 Relu_97 Relu outputAdjNodes 2 93 159 inputAdjNodes 1 91 diagInfo 
+93 Resize_99 Resize outputAdjNodes 1 94 inputAdjNodes 1 92 diagInfo INFORMATION -- [TIDL_ResizeLayer]  Any resize ratio which is power of 2 and greater than 4 will be placed by combination of 4x4 resize layer and 2x2 resize layer. For example a 8x8 resize will be replaced by 4x4 resize followed by 2x2 resize.
+94 Concat_100 Concat outputAdjNodes 2 95 96 inputAdjNodes 2 93 66 diagInfo 
+95 Conv_101 Conv outputAdjNodes 1 97 inputAdjNodes 1 94 diagInfo 
+96 Conv_103 Conv outputAdjNodes 1 98 inputAdjNodes 1 94 diagInfo 
+97 Relu_102 Relu outputAdjNodes 1 99 inputAdjNodes 1 95 diagInfo 
+98 Relu_104 Relu outputAdjNodes 1 103 inputAdjNodes 1 96 diagInfo 
+99 Conv_105 Conv outputAdjNodes 1 100 inputAdjNodes 1 97 diagInfo 
+100 Relu_106 Relu outputAdjNodes 1 101 inputAdjNodes 1 99 diagInfo 
+101 Conv_107 Conv outputAdjNodes 1 102 inputAdjNodes 1 100 diagInfo 
+102 Relu_108 Relu outputAdjNodes 1 103 inputAdjNodes 1 101 diagInfo 
+103 Concat_109 Concat outputAdjNodes 1 104 inputAdjNodes 2 102 98 diagInfo 
+104 Conv_110 Conv outputAdjNodes 1 105 inputAdjNodes 1 103 diagInfo 
+105 Relu_111 Relu outputAdjNodes 1 106 inputAdjNodes 1 104 diagInfo 
+106 Conv_112 Conv outputAdjNodes 1 107 inputAdjNodes 1 105 diagInfo 
+107 Relu_113 Relu outputAdjNodes 2 108 125 inputAdjNodes 1 106 diagInfo 
+108 Resize_115 Resize outputAdjNodes 1 109 inputAdjNodes 1 107 diagInfo INFORMATION -- [TIDL_ResizeLayer]  Any resize ratio which is power of 2 and greater than 4 will be placed by combination of 4x4 resize layer and 2x2 resize layer. For example a 8x8 resize will be replaced by 4x4 resize followed by 2x2 resize.
+109 Concat_116 Concat outputAdjNodes 2 110 111 inputAdjNodes 2 108 42 diagInfo 
+110 Conv_117 Conv outputAdjNodes 1 112 inputAdjNodes 1 109 diagInfo 
+111 Conv_119 Conv outputAdjNodes 1 113 inputAdjNodes 1 109 diagInfo 
+112 Relu_118 Relu outputAdjNodes 1 114 inputAdjNodes 1 110 diagInfo 
+113 Relu_120 Relu outputAdjNodes 1 118 inputAdjNodes 1 111 diagInfo 
+114 Conv_121 Conv outputAdjNodes 1 115 inputAdjNodes 1 112 diagInfo 
+115 Relu_122 Relu outputAdjNodes 1 116 inputAdjNodes 1 114 diagInfo 
+116 Conv_123 Conv outputAdjNodes 1 117 inputAdjNodes 1 115 diagInfo 
+117 Relu_124 Relu outputAdjNodes 1 118 inputAdjNodes 1 116 diagInfo 
+118 Concat_125 Concat outputAdjNodes 1 119 inputAdjNodes 2 117 113 diagInfo 
+119 Conv_126 Conv outputAdjNodes 1 120 inputAdjNodes 1 118 diagInfo 
+120 Relu_127 Relu outputAdjNodes 2 121 122 inputAdjNodes 1 119 diagInfo 
+121 Conv_128 Conv outputAdjNodes 1 123 inputAdjNodes 1 120 diagInfo 
+122 Conv_156 Conv outputAdjNodes 1 124 inputAdjNodes 1 120 diagInfo 
+123 Relu_129 Relu outputAdjNodes 1 125 inputAdjNodes 1 121 diagInfo 
+124 Relu_157 Relu outputAdjNodes 2 126 127 inputAdjNodes 1 122 diagInfo 
+125 Concat_130 Concat outputAdjNodes 2 128 129 inputAdjNodes 2 123 107 diagInfo 
+126 Conv_158 Conv outputAdjNodes 1 130 inputAdjNodes 1 124 diagInfo 
+127 Conv_163 Conv outputAdjNodes 1 131 inputAdjNodes 1 124 diagInfo 
+128 Conv_131 Conv outputAdjNodes 1 132 inputAdjNodes 1 125 diagInfo 
+129 Conv_133 Conv outputAdjNodes 1 133 inputAdjNodes 1 125 diagInfo 
+130 Relu_159 Relu outputAdjNodes 1 134 inputAdjNodes 1 126 diagInfo 
+131 Relu_164 Relu outputAdjNodes 1 135 inputAdjNodes 1 127 diagInfo 
+132 Relu_132 Relu outputAdjNodes 1 136 inputAdjNodes 1 128 diagInfo 
+133 Relu_134 Relu outputAdjNodes 1 147 inputAdjNodes 1 129 diagInfo 
+134 Conv_160 Conv outputAdjNodes 1 137 inputAdjNodes 1 130 diagInfo 
+135 Conv_165 Conv outputAdjNodes 1 138 inputAdjNodes 1 131 diagInfo 
+136 Conv_135 Conv outputAdjNodes 1 139 inputAdjNodes 1 132 diagInfo 
+137 Relu_161 Relu outputAdjNodes 1 140 inputAdjNodes 1 134 diagInfo 
+138 Relu_166 Relu outputAdjNodes 2 141 142 inputAdjNodes 1 135 diagInfo 
+139 Relu_136 Relu outputAdjNodes 1 143 inputAdjNodes 1 136 diagInfo 
+140 Conv_162 Conv outputAdjNodes 1 144 inputAdjNodes 1 137 diagInfo 
+141 Conv_167 Conv outputAdjNodes 1 144 inputAdjNodes 1 138 diagInfo 
+142 Conv_168 Conv outputAdjNodes 1 144 inputAdjNodes 1 138 diagInfo 
+143 Conv_137 Conv outputAdjNodes 1 145 inputAdjNodes 1 139 diagInfo 
+144 Concat_169 Concat outputAdjNodes 2 146 154 inputAdjNodes 3 141 142 140 diagInfo 
+145 Relu_138 Relu outputAdjNodes 1 147 inputAdjNodes 1 143 diagInfo 
+146 Slice_174 Slice outputAdjNodes 1 148 inputAdjNodes 1 144 diagInfo 
+147 Concat_139 Concat outputAdjNodes 1 149 inputAdjNodes 2 145 133 diagInfo 
+148 Sigmoid_175 Sigmoid outputAdjNodes 1 150 inputAdjNodes 1 146 diagInfo 
+149 Conv_140 Conv outputAdjNodes 1 151 inputAdjNodes 1 147 diagInfo 
+150 Reshape_182 Reshape outputAdjNodes 1 152 inputAdjNodes 1 148 diagInfo 
+151 Relu_141 Relu outputAdjNodes 2 153 155 inputAdjNodes 1 149 diagInfo 
+152 Expand_191 Expand outputAdjNodes 1 154 inputAdjNodes 1 150 diagInfo 
+153 Conv_142 Conv outputAdjNodes 1 156 inputAdjNodes 1 151 diagInfo 
+154 ScatterND_283 ScatterND outputAdjNodes 1 158 inputAdjNodes 2 144 152 diagInfo 
+155 Conv_284 Conv outputAdjNodes 1 157 inputAdjNodes 1 151 diagInfo 
+156 Relu_143 Relu outputAdjNodes 1 159 inputAdjNodes 1 153 diagInfo 
+157 Relu_285 Relu outputAdjNodes 2 160 161 inputAdjNodes 1 155 diagInfo 
+158 Reshape_565 Reshape outputAdjNodes 1 209 inputAdjNodes 1 154 diagInfo 
+159 Concat_144 Concat outputAdjNodes 2 162 163 inputAdjNodes 2 156 92 diagInfo 
+160 Conv_286 Conv outputAdjNodes 1 164 inputAdjNodes 1 157 diagInfo 
+161 Conv_291 Conv outputAdjNodes 1 165 inputAdjNodes 1 157 diagInfo 
+162 Conv_145 Conv outputAdjNodes 1 166 inputAdjNodes 1 159 diagInfo 
+163 Conv_147 Conv outputAdjNodes 1 167 inputAdjNodes 1 159 diagInfo 
+164 Relu_287 Relu outputAdjNodes 1 168 inputAdjNodes 1 160 diagInfo 
+165 Relu_292 Relu outputAdjNodes 1 169 inputAdjNodes 1 161 diagInfo 
+166 Relu_146 Relu outputAdjNodes 1 170 inputAdjNodes 1 162 diagInfo 
+167 Relu_148 Relu outputAdjNodes 1 181 inputAdjNodes 1 163 diagInfo 
+168 Conv_288 Conv outputAdjNodes 1 171 inputAdjNodes 1 164 diagInfo 
+169 Conv_293 Conv outputAdjNodes 1 172 inputAdjNodes 1 165 diagInfo 
+170 Conv_149 Conv outputAdjNodes 1 173 inputAdjNodes 1 166 diagInfo 
+171 Relu_289 Relu outputAdjNodes 1 174 inputAdjNodes 1 168 diagInfo 
+172 Relu_294 Relu outputAdjNodes 2 175 176 inputAdjNodes 1 169 diagInfo 
+173 Relu_150 Relu outputAdjNodes 1 177 inputAdjNodes 1 170 diagInfo 
+174 Conv_290 Conv outputAdjNodes 1 178 inputAdjNodes 1 171 diagInfo 
+175 Conv_295 Conv outputAdjNodes 1 178 inputAdjNodes 1 172 diagInfo 
+176 Conv_296 Conv outputAdjNodes 1 178 inputAdjNodes 1 172 diagInfo 
+177 Conv_151 Conv outputAdjNodes 1 179 inputAdjNodes 1 173 diagInfo 
+178 Concat_297 Concat outputAdjNodes 2 180 187 inputAdjNodes 3 175 176 174 diagInfo 
+179 Relu_152 Relu outputAdjNodes 1 181 inputAdjNodes 1 177 diagInfo 
+180 Slice_302 Slice outputAdjNodes 1 182 inputAdjNodes 1 178 diagInfo 
+181 Concat_153 Concat outputAdjNodes 1 183 inputAdjNodes 2 179 167 diagInfo 
+182 Sigmoid_303 Sigmoid outputAdjNodes 1 184 inputAdjNodes 1 180 diagInfo 
+183 Conv_154 Conv outputAdjNodes 1 185 inputAdjNodes 1 181 diagInfo 
+184 Reshape_310 Reshape outputAdjNodes 1 186 inputAdjNodes 1 182 diagInfo 
+185 Relu_155 Relu outputAdjNodes 1 188 inputAdjNodes 1 183 diagInfo 
+186 Expand_319 Expand outputAdjNodes 1 187 inputAdjNodes 1 184 diagInfo 
+187 ScatterND_411 ScatterND outputAdjNodes 1 190 inputAdjNodes 2 178 186 diagInfo 
+188 Conv_412 Conv outputAdjNodes 1 189 inputAdjNodes 1 185 diagInfo 
+189 Relu_413 Relu outputAdjNodes 2 191 192 inputAdjNodes 1 188 diagInfo 
+190 Reshape_573 Reshape outputAdjNodes 1 209 inputAdjNodes 1 187 diagInfo 
+191 Conv_414 Conv outputAdjNodes 1 193 inputAdjNodes 1 189 diagInfo 
+192 Conv_419 Conv outputAdjNodes 1 194 inputAdjNodes 1 189 diagInfo 
+193 Relu_415 Relu outputAdjNodes 1 195 inputAdjNodes 1 191 diagInfo 
+194 Relu_420 Relu outputAdjNodes 1 196 inputAdjNodes 1 192 diagInfo 
+195 Conv_416 Conv outputAdjNodes 1 197 inputAdjNodes 1 193 diagInfo 
+196 Conv_421 Conv outputAdjNodes 1 198 inputAdjNodes 1 194 diagInfo 
+197 Relu_417 Relu outputAdjNodes 1 199 inputAdjNodes 1 195 diagInfo 
+198 Relu_422 Relu outputAdjNodes 2 200 201 inputAdjNodes 1 196 diagInfo 
+199 Conv_418 Conv outputAdjNodes 1 202 inputAdjNodes 1 197 diagInfo 
+200 Conv_423 Conv outputAdjNodes 1 202 inputAdjNodes 1 198 diagInfo 
+201 Conv_424 Conv outputAdjNodes 1 202 inputAdjNodes 1 198 diagInfo 
+202 Concat_425 Concat outputAdjNodes 2 203 207 inputAdjNodes 3 200 201 199 diagInfo 
+203 Slice_430 Slice outputAdjNodes 1 204 inputAdjNodes 1 202 diagInfo 
+204 Sigmoid_431 Sigmoid outputAdjNodes 1 205 inputAdjNodes 1 203 diagInfo 
+205 Reshape_438 Reshape outputAdjNodes 1 206 inputAdjNodes 1 204 diagInfo 
+206 Expand_447 Expand outputAdjNodes 1 207 inputAdjNodes 1 205 diagInfo 
+207 ScatterND_539 ScatterND outputAdjNodes 1 208 inputAdjNodes 2 202 206 diagInfo 
+208 Reshape_581 Reshape outputAdjNodes 1 209 inputAdjNodes 1 207 diagInfo 
+209 Concat_582 Concat outputAdjNodes 1 210 inputAdjNodes 3 158 190 208 diagInfo 
+210 Transpose_583 Transpose outputAdjNodes 2 211 216 inputAdjNodes 1 209 diagInfo 
+211 Slice_706 Slice outputAdjNodes 1 212 inputAdjNodes 1 210 diagInfo 
+212 Add_707 Add outputAdjNodes 1 213 inputAdjNodes 1 211 diagInfo 
+213 Mul_708 Mul outputAdjNodes 1 214 inputAdjNodes 1 212 diagInfo 
+214 Reshape_715 Reshape outputAdjNodes 1 215 inputAdjNodes 1 213 diagInfo 
+215 Expand_724 Expand outputAdjNodes 1 216 inputAdjNodes 1 214 diagInfo 
+216 ScatterND_797 ScatterND outputAdjNodes 2 217 222 inputAdjNodes 2 210 215 diagInfo 
+217 Slice_802 Slice outputAdjNodes 1 218 inputAdjNodes 1 216 diagInfo 
+218 Exp_803 Exp outputAdjNodes 1 219 inputAdjNodes 1 217 diagInfo 
+219 Mul_804 Mul outputAdjNodes 1 220 inputAdjNodes 1 218 diagInfo 
+220 Reshape_811 Reshape outputAdjNodes 1 221 inputAdjNodes 1 219 diagInfo 
+221 Expand_820 Expand outputAdjNodes 1 222 inputAdjNodes 1 220 diagInfo 
+222 ScatterND_893 ScatterND outputAdjNodes 5 223 224 225 226 236 inputAdjNodes 2 216 221 diagInfo 
+223 Slice_898 Slice outputAdjNodes 2 229 231 inputAdjNodes 1 222 diagInfo 
+224 Slice_903 Slice outputAdjNodes 2 230 232 inputAdjNodes 1 222 diagInfo 
+225 Slice_908 Slice outputAdjNodes 1 227 inputAdjNodes 1 222 diagInfo 
+226 Slice_913 Slice outputAdjNodes 1 228 inputAdjNodes 1 222 diagInfo 
+227 Div_914 Div outputAdjNodes 2 229 231 inputAdjNodes 1 225 diagInfo 
+228 Div_915 Div outputAdjNodes 2 230 232 inputAdjNodes 1 226 diagInfo 
+229 Sub_916 Sub outputAdjNodes 1 233 inputAdjNodes 2 223 227 diagInfo 
+230 Sub_917 Sub outputAdjNodes 1 233 inputAdjNodes 2 224 228 diagInfo 
+231 Add_918 Add outputAdjNodes 1 233 inputAdjNodes 2 223 227 diagInfo 
+232 Add_919 Add outputAdjNodes 1 233 inputAdjNodes 2 224 228 diagInfo 
+233 Concat_920 Concat outputAdjNodes 1 234 inputAdjNodes 4 229 230 231 232 diagInfo 
+234 Reshape_927 Reshape outputAdjNodes 1 235 inputAdjNodes 1 233 diagInfo 
+235 Expand_936 Expand outputAdjNodes 1 236 inputAdjNodes 1 234 diagInfo 
+236 ScatterND_1009 ScatterND outputAdjNodes 1 237 inputAdjNodes 2 222 235 diagInfo 
+237 Squeeze_1011 Squeeze outputAdjNodes 3 238 239 240 inputAdjNodes 1 236 diagInfo 
+238 Slice_1016 Slice outputAdjNodes 2 241 242 inputAdjNodes 1 237 diagInfo 
+239 Slice_1023 Slice outputAdjNodes 1 243 inputAdjNodes 1 237 diagInfo 
+240 Slice_1035 Slice outputAdjNodes 1 246 inputAdjNodes 1 237 diagInfo 
+241 ReduceMax_1017 ReduceMax outputAdjNodes 1 243 inputAdjNodes 1 238 diagInfo 
+242 ArgMax_1018 ArgMax outputAdjNodes 1 244 inputAdjNodes 1 238 diagInfo 
+243 Mul_1024 Mul outputAdjNodes 2 245 246 inputAdjNodes 2 239 241 diagInfo 
+244 Cast_1036 Cast outputAdjNodes 1 246 inputAdjNodes 1 242 diagInfo 
+245 Squeeze_1025 Squeeze outputAdjNodes 1 247 inputAdjNodes 1 243 diagInfo 
+246 Concat_1037 Concat outputAdjNodes 1 254 inputAdjNodes 3 240 243 244 diagInfo 
+247 Cast_1026 Cast outputAdjNodes 1 248 inputAdjNodes 1 245 diagInfo 
+248 Less_1028 Less outputAdjNodes 1 249 inputAdjNodes 1 247 diagInfo 
+249 Not_1029 Not outputAdjNodes 1 250 inputAdjNodes 1 248 diagInfo 
+250 Squeeze_1030 Squeeze outputAdjNodes 1 251 inputAdjNodes 1 249 diagInfo 
+251 NonZero_1039 NonZero outputAdjNodes 1 252 inputAdjNodes 1 250 diagInfo 
+252 Transpose_1040 Transpose outputAdjNodes 1 253 inputAdjNodes 1 251 diagInfo 
+253 Squeeze_1041 Squeeze outputAdjNodes 1 254 inputAdjNodes 1 252 diagInfo 
+254 Gather_1042 Gather outputAdjNodes 4 255 256 257 266 inputAdjNodes 2 246 253 diagInfo 
+255 Slice_1047 Slice outputAdjNodes 1 258 inputAdjNodes 1 254 diagInfo 
+256 Slice_1054 Slice outputAdjNodes 1 260 inputAdjNodes 1 254 diagInfo 
+257 Gather_1057 Gather outputAdjNodes 1 259 inputAdjNodes 1 254 diagInfo 
+258 Mul_1049 Mul outputAdjNodes 1 260 inputAdjNodes 1 255 diagInfo 
+259 Unsqueeze_1059 Unsqueeze outputAdjNodes 1 261 inputAdjNodes 1 257 diagInfo 
+260 Add_1055 Add outputAdjNodes 1 262 inputAdjNodes 2 256 258 diagInfo 
+261 Unsqueeze_1060 Unsqueeze outputAdjNodes 1 263 inputAdjNodes 1 259 diagInfo 
+262 Unsqueeze_1058 Unsqueeze outputAdjNodes 1 263 inputAdjNodes 1 260 diagInfo 
+263 NonMaxSuppression_1063 NonMaxSuppression outputAdjNodes 1 264 inputAdjNodes 2 262 261 diagInfo 
+264 Gather_1065 Gather outputAdjNodes 1 265 inputAdjNodes 1 263 diagInfo 
+265 Squeeze_1066 Squeeze outputAdjNodes 1 266 inputAdjNodes 1 264 diagInfo 
+266 Gather_1068 Gather outputAdjNodes 0 detections inputAdjNodes 2 254 265 diagInfo 
